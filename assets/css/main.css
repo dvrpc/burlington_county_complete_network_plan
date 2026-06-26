@@ -148,9 +148,12 @@
     float:right;
     }
     #dvrpc-small-logo {
-      padding: 12px 0px 19px 30px;
+      /* padding: 12px 0px 19px 30px;
+      height:60px;
+      width:135px; */
+      padding: 0px 0px 0px 10px;
       /* height:60px; */
-      width:135px;
+      width:75px;
     }
     #rvz-small-logo {
         padding: 0px 40px 0px 0px;
@@ -243,7 +246,7 @@
       padding: 5px 0px 5px 5px;
     }
     #list_icon {
-      width:30px;
+      width:40px;
       margin:0px 5px 0px 0px;
     }
     .item {
