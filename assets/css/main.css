@@ -252,6 +252,15 @@
     .item {
       padding: 2px;
     }
+    .item-disc {
+      padding: 2px;
+      list-style-type: disc; /* Options: disc, circle, square */
+    }
+    .item-disc2 {
+      margin-left: 0;
+      padding-left: 0;
+      list-style-position: inside; /* Puts the number inside the list item flow */
+    }
     #more_info_p {
       margin: 0px 12px 0px 25px;
     }
