@@ -95,7 +95,8 @@
       margin: 10px 10px 10px 0px;
       /* float:right; */
       color:#fff;
-      background-color:#005475;
+      /* background-color:#005475; */
+      background-color: #229d48;
       display: flex;
       justify-content: center; 
       text-align: center;
@@ -146,6 +147,14 @@
     height: 140px;
     margin: 0px 11px 5px 5px;
     float:right;
+    }
+    .bccnp-footer-logo{
+    height: 110px;
+    /* margin: 0px 11px 5px 5px; */
+    }
+    .bc-footer-logo{
+    height: 100px;
+    margin: 0px 11px 5px 5px;
     }
     #dvrpc-small-logo {
       /* padding: 12px 0px 19px 30px;
@@ -209,7 +218,7 @@
       color: #005475;
     }
     .about_link:hover{
-      color: #d3d3d3;
+      color: #3a3a3a;
       text-decoration: underline;
       font-size: 14px;
     }
@@ -291,11 +300,11 @@
     padding: 20px 2px;
     }
     a {
-    color:#404040;
+    /* color:#404040; */
     text-decoration:none;
     }
     a:hover { 
-    color:#fff; 
+    /* color:#fff;  */
     }
     .heading {
     background:#666666;
@@ -331,20 +340,22 @@
       font-size: 16px;
       padding: 5px;
       text-align: center;
-      background: #3a3a3a;
+      /* background: #3a3a3a; */
+      background: #229d48;
       /* border: solid 1px #666; */
       color: #ffffff;
       border-radius: 3px;
       user-select: none;
     }
     .fa-chevron-down fa fa-lg{
-      color:#969696;
+      color:#fff;
     }
     #hide {
-      color:#969696;
+      color:#fff;
     }
     #hide:hover {
-      color:#fff;
+      /* color:#fff; */
+      color:#969696;
     }
     #footer-title{
       margin: 0px 0px 0px 0px;
@@ -358,6 +369,7 @@
     margin: 0px 0px 0px 0px;
     display: flex;
     flex-direction: row;
+    width: 500px;
     }
     .footer-text-left1{
       margin: 0px 40px 0px 0px;
@@ -383,18 +395,20 @@
       margin: 0px 25px 0px 25px;
     }
     .footer_links{
-      color: #d3d3d3;
+      /* color: #d3d3d3; */
       text-decoration: underline;
       /* font-size: 14px; */
     }
     .footer-og {
       height: 150px;
-      background:#3a3a3a;
+      /* background:#3a3a3a; */
+      background: #229d48;
       padding: 0px 30px 0px 30px;
       }
     .footer-alt {
       /* height: 35px; */
-      background:#3a3a3a;
+    /* background:#3a3a3a; */
+      background: #229d48;
       padding: 0px 30px 0px 30px;
       }
       .footer_panel_og {
@@ -403,7 +417,7 @@
         visibility: hidden;
       }
       .footer_panel_alt {
-        color:#d3d3d3;
+        color:#ffffff;
         margin-top: -20px;
         visibility: block;
       }
