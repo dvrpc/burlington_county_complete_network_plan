@@ -101,9 +101,15 @@
       justify-content: center; 
       text-align: center;
     }
+    #user_guide {
+      display: inline-block; /* Allows vertical margins while keeping the element inline */
+      margin: 30px -10px 0px 0px;
+      font-size: large;
+    }
     #about_icon {
       width: 25px;
-      margin: 25px 30px 0px 0px;
+      margin: 0px 30px 0px 0px; 
+      cursor: pointer;
     }
     #about_logo {
       margin: 5px 15px 0px 0px;
@@ -183,7 +189,7 @@
     }
     .container-fluid {
     z-index: 30;
-    height:70px;
+    height: 80px;
     border-bottom: 3px solid #f7f7f7;
     color: #fff;
     white-space: nowrap;
